@@ -71,18 +71,6 @@ function setup(){
   if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
     pixelDensity(1);
 
-    sceneOn[1] = false;
-    document.getElementById("bend").checked = false;
-    sceneOn[2] = false;
-    document.getElementById("box").checked = false;
-    sceneOn[3] = false;
-    document.getElementById("bugeyes").checked = false;
-    sceneOn[4] = false;
-    document.getElementById("halo").checked = false;
-    sceneOn[5] = false;
-    document.getElementById("risesun").checked = false;
-    sceneOn[12] = false;
-    document.getElementById("twist").checked = false;
   }
 
   cwidth = width;
