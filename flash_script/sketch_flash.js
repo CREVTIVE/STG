@@ -47,7 +47,7 @@ let accelMode = 1;
 let sHold = 0;
 
 function preload(){
-  tFont[0] = loadFont("resources/TT Bluescreens Trial Medium.otf");
+  tFont[0] = loadFont("resources/CREVTIVE-Extended-Black.woff");
 
   currentFont = tFont[0];
   thisFontAdjust = 0.7;
