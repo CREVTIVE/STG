@@ -43,7 +43,7 @@ let recMessageOn = false;
 let colorSwapOn = true;
 
 let displayMode = 0;
-let accelMode = 0;
+let accelMode = 1;
 let sHold = 0;
 
 function preload(){
