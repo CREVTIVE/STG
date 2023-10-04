@@ -11,7 +11,7 @@ var budgeCenter = 0;
 var mainFlash;
 var sceneLength = 30;
 
-var starterText = "THE\nCOLLECTIVE\nPOWER\nOF\nTINY\nMOMENTS";
+var starterText = "WE\nARE\nCREVTIVE";
 // var starterText = "الحركة\nبركة";
 
 var rampCounter = 0;
