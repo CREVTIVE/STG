@@ -23,7 +23,7 @@ var flashCount = 13;
 var sceneOn = [];
 var sceneCount = 15;
 
-var widgetOn = true;
+var widgetOn = false;
 
 let encoder;
 
