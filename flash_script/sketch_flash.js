@@ -16,8 +16,8 @@ var starterText = "WE'RE\nCREVTIVE";
 var rampCounter = 0;
 
 var thisFont = 0;
-var thisFontAdjust = 0.7;
-var thisFontAdjustUp = -0.2;
+var thisFontAdjust = 1;
+var thisFontAdjustUp = 0;
 
 var flashCount = 13;
 var sceneOn = [];
