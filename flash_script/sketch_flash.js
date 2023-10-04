@@ -16,8 +16,8 @@ var starterText = "WE'RE\nCREVTIVE";
 var rampCounter = 0;
 
 var thisFont = 0;
-var thisFontAdjust = 0;
-var thisFontAdjustUp = 0;
+var thisFontAdjust = 0.7;
+var thisFontAdjustUp = -0.2;
 
 var flashCount = 13;
 var sceneOn = [];
@@ -50,7 +50,7 @@ function preload(){
   tFont[0] = loadFont("resources/CREVTIVE-Extended-Black.woff");
 
   currentFont = tFont[0];
-  thisFontAdjust = 0.7;
+  thisFontAdjust = 1;
   thisFontAdjustUp = 0;
 }
 
