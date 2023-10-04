@@ -12,7 +12,6 @@ var mainFlash;
 var sceneLength = 30;
 
 var starterText = "WE'RE\nCREVTIVE";
-// var starterText = "الحركة\nبركة";
 
 var rampCounter = 0;
 
@@ -49,12 +48,6 @@ let sHold = 0;
 
 function preload(){
   tFont[0] = loadFont("resources/TT Bluescreens Trial Medium.otf");
-  tFont[1] = loadFont("resources/TT Travels Next Trial Bold.ttf");
-  tFont[2] = loadFont("resources/Inter-Medium.ttf");
-  tFont[3] = loadFont("resources/Agrandir-TightBlack.otf");
-  tFont[4] = loadFont("resources/ApocLC-Regular-Desktop.otf");
-  tFont[5] = loadFont("resources/BaseNeueTrial-CondensedBlack.otf");
-  tFont[6] = loadFont("resources/Cairo-Black.ttf");
 
   currentFont = tFont[0];
   thisFontAdjust = 0.7;
