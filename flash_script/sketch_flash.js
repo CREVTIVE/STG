@@ -63,7 +63,10 @@ function setup(){
 
   if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
     pixelDensity(1);
-
+    sceneOn[3] = false;
+    document.getElementById("bugeyes").checked = false;
+    sceneOn[8] = false;
+    document.getElementById("slotmachine").checked = false;
   }
 
   cwidth = width;
