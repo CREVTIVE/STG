@@ -94,7 +94,7 @@ input[type=range]{
 }
 #generatorInput{
   position:absolute;
-  display:flex;
+  display:none;
   flex-direction:column
 }
 textarea{
