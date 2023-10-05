@@ -138,7 +138,7 @@ drawTextures(){
   this.pgA.textSize(this.pgTextSize);
   this.pgA.textAlign(CENTER, CENTER);
   this.pgA.textFont(currentFont);
-  this.pgA.text(this.inp, this.pgA.width/2, this.pgA.height/2);
+  this.pgA.text(this.inp, this.pgA.width/2, this.pgA.height/1);
 
   this.pgB = createGraphics(repeatSize, this.pgTextSize * 0.8);
   this.pgB.background(foreColor);
@@ -147,7 +147,7 @@ drawTextures(){
   this.pgB.textSize(this.pgTextSize);
   this.pgB.textAlign(CENTER, CENTER);
   this.pgB.textFont(currentFont);
-  this.pgB.text(this.inp, this.pgA.width/2, this.pgB.height/2);
+  this.pgB.text(this.inp, this.pgA.width/2, this.pgB.height/1);
 }
 
 
