@@ -17,7 +17,7 @@ var rampCounter = 0;
 
 var thisFont = 0;
 var thisFontAdjust = 1;
-var thisFontAdjustUp = 0;
+var thisFontAdjustUp = 1;
 
 var flashCount = 13;
 var sceneOn = [];
