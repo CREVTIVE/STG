@@ -121,8 +121,8 @@ class Box {
       this.pgTextSize += 2;
     }
 
-    if(this.pgTextSize * thisFontAdjust > height * 1){
-      this.pgTextSize = (height * 1)/thisFontAdjust;
+    if(this.pgTextSize * thisFontAdjust > height * 1.5){
+      this.pgTextSize = (height * 1.5)/thisFontAdjust;
     }
   }
 
