@@ -11,7 +11,7 @@ var budgeCenter = 0;
 var mainFlash;
 var sceneLength = 30;
 
-var starterText = "WE'RE\nCREVTIVE\nMarketing\nAgency";
+var starterText = "WE'RE\nCREVTIVE\nMARKETING\nAGENCY";
 
 var rampCounter = 0;
 
