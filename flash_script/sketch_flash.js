@@ -63,6 +63,8 @@ function setup(){
 
   if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
     pixelDensity(1);
+    sceneOn[1] = false;
+    document.getElementById("bend").checked = false;
     sceneOn[3] = false;
     document.getElementById("bugeyes").checked = false;
     sceneOn[8] = false;
