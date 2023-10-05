@@ -11,13 +11,13 @@ var budgeCenter = 0;
 var mainFlash;
 var sceneLength = 30;
 
-var starterText = "WE'RE\nCREVTIVE\nMARKETING\nAGENCY";
+var starterText = "WE'RE\nCREVTIVE";
 
 var rampCounter = 0;
 
 var thisFont = 0;
 var thisFontAdjust = 1;
-var thisFontAdjustUp = 1;
+var thisFontAdjustUp = 0;
 
 var flashCount = 13;
 var sceneOn = [];
