@@ -40,7 +40,7 @@ let saveMode = 0;
 
 let coreCounter = 0;
 let recMessageOn = false;
-let colorSwapOn = true;
+let colorSwapOn = false;
 
 let displayMode = 0;
 let accelMode = 1;
