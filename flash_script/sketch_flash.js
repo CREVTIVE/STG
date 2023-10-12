@@ -76,8 +76,8 @@ function setup(){
 
   thisDensity = pixelDensity();
 
-  bkgdColor = color('#ffffff');
-  foreColor = color('#000000');
+  bkgdColor = color('#000000');
+  foreColor = color('#ffffff');
   colorA[0] = color('#f25835');
   colorA[1] = color('#0487d9');
   colorA[2] = color('#014029');
