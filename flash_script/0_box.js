@@ -130,15 +130,15 @@ class Box {
     textSize(this.pgTextSize);
     textFont(currentFont);
     var repeatSize = round(textWidth(this.inp));
-
+  
     this.pgA = createGraphics(repeatSize, this.pgTextSize * (thisFontAdjust + 0.1));
     this.pgA.background(bkgdColor);
     this.pgA.fill(foreColor);
     this.pgA.noStroke();
     this.pgA.textSize(this.pgTextSize);
-    this.pgA.textAlign(CENTER, CENTER); // Add CENTER argument for vertical alignment
+    this.pgA.textAlign(CENTER);
     this.pgA.textFont(currentFont);
-    var thisAdjust = this.pgA.height / 2;
+    var thisAdjust = this.pgA.height/2 + this.pgTextSize * thisFontAdjust/2 + this.pgTextSize * thisFontAdjustUp;
     this.pgA.text(this.inp, this.pgA.width/2, thisAdjust);
 
     this.pgB = createGraphics(repeatSize, this.pgTextSize * 0.8);
@@ -146,9 +146,9 @@ class Box {
     this.pgB.fill(bkgdColor);
     this.pgB.noStroke();
     this.pgB.textSize(this.pgTextSize);
-    this.pgB.textAlign(CENTER, CENTER); // Add CENTER argument for vertical alignment
+    this.pgB.textAlign(CENTER);
     this.pgB.textFont(currentFont);
-    var thisAdjust = this.pgA.height / 2;
+    var thisAdjust = this.pgA.height/2 + this.pgTextSize * thisFontAdjust/2 + this.pgTextSize * thisFontAdjustUp;
     this.pgB.text(this.inp, this.pgA.width/2, thisAdjust);
   }
 
