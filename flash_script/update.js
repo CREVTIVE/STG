@@ -39,6 +39,7 @@ function setFont(val){
     thisFontAdjust = 1.05;
     thisFontAdjustUp = -0.315;
   }
+}
 
 function setSelectMode(val){
   displayMode = val;
