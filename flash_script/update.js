@@ -18,26 +18,26 @@ function setSceneLength(val){
 function setFont(val){
   currentFont = tFont[val];
   if(val == 0){
-    thisFontAdjust = 0.7;
+    thisFontAdjust = 1;
     thisFontAdjustUp = 0;
   } else if(val == 1){
-    thisFontAdjust = 0.7;
+    thisFontAdjust = 1;
     thisFontAdjustUp = 0;
   } else if(val == 2){
-    thisFontAdjust = 0.75;
+    thisFontAdjust = 1;
     thisFontAdjustUp = 0;
   } else if(val == 3){
-    thisFontAdjust = 0.7;
+    thisFontAdjust = 1;
     thisFontAdjustUp = 0;
   } else if(val == 4){
-    thisFontAdjust = 0.75;
+    thisFontAdjust = 1;
     thisFontAdjustUp = 0;
   } else if(val == 5){
-    thisFontAdjust = 0.775;
+    thisFontAdjust = 1;
     thisFontAdjustUp = 0;
   } else if(val == 6){
-    thisFontAdjust = 1.05;
-    thisFontAdjustUp = -0.315;
+    thisFontAdjust = 1;
+    thisFontAdjustUp = 0;
   }
 }
 
